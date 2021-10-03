@@ -23,9 +23,9 @@ const Choice: React.FC<ChoiceProps> = ({ onRemove, onTextInput, ...props }) => {
       <Input {...props} onChange={handleChange} isWarning={isWarning} />
       {onRemove && (
         <Box position="absolute" right="8px" top="0px" zIndex={30}>
-          <IconButton variant="text" onClick={onRemove}>
+          {/* <IconButton variant="text" onClick={onRemove}>
             <CloseIcon />
-          </IconButton>
+          </IconButton> */}
         </Box>
       )}
     </Box>

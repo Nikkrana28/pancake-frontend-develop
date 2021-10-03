@@ -52,6 +52,13 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     ],
   },
   // {
+  //   label: t('Docs'),
+  //    href: 'https://docs.pancakeswap.finance',
+  //    type: DropdownMenuItemType.EXTERNAL_LINK,
+  //    items: []
+  //  },
+  
+  // {
   //   label: t('Twitter'),
   //   href: 'www.twitter.com',
   //   icon: '',

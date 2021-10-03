@@ -156,7 +156,7 @@ const PlaceBidModal: React.FC<PlaceBidModalProps> = ({
         <Flex justifyContent="space-between" alignItems="center" pb="8px">
           <Text>{t('Bid a multiple of 10')}</Text>
           <Flex>
-            <PancakeRoundIcon width="24px" height="24px" mr="4px" />
+            {/* <PancakeRoundIcon width="24px" height="24px" mr="4px" /> */}
             <Text bold>CAKE</Text>
           </Flex>
         </Flex>

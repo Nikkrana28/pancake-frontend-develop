@@ -32,13 +32,13 @@ const Menu = (props) => {
       currentLang={currentLanguage.code}
       langs={languageList}
       setLang={setLanguage}
-      // cakePriceUsd={cakePriceUsd.toNumber()} 
+      cakePriceUsd={14.9} 
       links={config(t)}
       // subLinks={activeMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
       // footerLinks={footerLinks(t)}
       // activeItem={activeMenuItem?.href}
       // activeSubItem={activeSubMenuItem?.href}
-      // buyCakeLabel={t('Bye')}
+      buyCakeLabel={t('Bye')}
       profile={{
         username: profile?.username,
         image: profile?.nft ? `/images/nfts/${profile.nft?.images.sm}` : undefined,

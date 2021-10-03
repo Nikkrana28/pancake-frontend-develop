@@ -27,7 +27,7 @@ const Hero = () => {
               {t('Have your say in the future of the PancakeSwap Ecosystem')}
             </Heading>
             <Button
-              startIcon={<ProposalIcon color="currentColor" width="24px" />}
+              startIcon={<ProposalIcon color="currentColor" width="242px" />}
               as={Link}
               to="/voting/proposal/create"
             >

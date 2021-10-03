@@ -81,7 +81,7 @@ export default function ManageTokens({
             <IconButton variant="text" onClick={() => removeToken(chainId, token.address)}>
               <CloseIcon />
             </IconButton>
-            <LinkExternal href={getBscScanLink(token.address, 'address', chainId)} />
+            {/* <LinkExternal href={getBscScanLink(token.address, 'address', chainId)} /> */}
           </RowFixed>
         </RowBetween>
       ))

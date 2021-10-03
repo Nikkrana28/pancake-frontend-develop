@@ -88,7 +88,7 @@ const Footer = () => {
 
   return (
     <>
-      <BgWrapper>
+      {/* <BgWrapper>
         <Flex alignItems="center" justifyContent="center" width="100%" height="100%">
           <StyledSunburst />
         </Flex>
@@ -116,7 +116,7 @@ const Footer = () => {
           {t('Learn how to start')}
         </Link>
         {!account && <ConnectWalletButton mt="24px" />}
-      </Wrapper>
+      </Wrapper> */}
     </>
   )
 }

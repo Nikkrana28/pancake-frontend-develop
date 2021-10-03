@@ -79,7 +79,7 @@ const FarmsPoolsRow = () => {
               startTimer()
             }}
           >
-            <SwapVertIcon height="24px" width="24px" color="textSubtle" />
+            {/* <SwapVertIcon height="24px" width="24px" color="textSubtle" /> */}
           </IconButton>
         </Flex>
         <Box height={['240px', null, '80px']}>

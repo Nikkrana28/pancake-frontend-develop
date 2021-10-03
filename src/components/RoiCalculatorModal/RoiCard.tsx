@@ -138,7 +138,7 @@ const RoiCard: React.FC<RoiCardProps> = ({ earningTokenSymbol, calculatorState, 
                 </RoiDollarAmount>
               </RoiDisplayContainer>
               <IconButton scale="sm" variant="text" onClick={onEnterEditing}>
-                <PencilIcon color="primary" />
+                {/* <PencilIcon color="primary" /> */}
               </IconButton>
             </>
           )}

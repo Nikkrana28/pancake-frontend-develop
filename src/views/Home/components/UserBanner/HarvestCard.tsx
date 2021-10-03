@@ -82,7 +82,7 @@ const HarvestCard = () => {
                 <Text color="primary" bold>
                   {t('Start earning')}
                 </Text>
-                <ArrowForwardIcon ml="4px" color="primary" />
+                {/* <ArrowForwardIcon ml="4px" color="primary" /> */}
               </Button>
             </Link>
           ) : (

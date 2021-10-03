@@ -24,7 +24,7 @@ function ConfirmAddModalBottom({
   const { t } = useTranslation()
   return (
     <>
-      <RowBetween>
+      {/* <RowBetween>
         <Text>{t('%asset% Deposited', { asset: currencies[Field.CURRENCY_A]?.symbol })}</Text>
         <RowFixed>
           <CurrencyLogo currency={currencies[Field.CURRENCY_A]} style={{ marginRight: '8px' }} />
@@ -59,7 +59,7 @@ function ConfirmAddModalBottom({
       </RowBetween>
       <Button onClick={onAdd} mt="20px">
         {noLiquidity ? t('Create Pool & Supply') : t('Confirm Supply')}
-      </Button>
+      </Button> */}
     </>
   )
 }

@@ -84,16 +84,16 @@ const App: React.FC = () => {
             <Route path="/" exact>
               <Swap history={undefined} location={undefined} match={undefined} />
             </Route>
-            <Route exact path="/farms/auction">
+            {/* <Route exact path="/farms/auction">
             <Redirect to='www.google.com' />
-            </Route>
-            <Route path="/farms">
+            </Route> */}
+            {/* <Route path="/farms">
               <Redirect to='www.google.com' />
-            </Route>
-            <Route path="/pools">
+            </Route> */}
+            {/* <Route path="/pools">
               <Pools />
-            </Route>
-            <Route path="/lottery">
+            </Route> */}
+            {/* <Route path="/lottery">
               <Lottery />
             </Route>
             <Route path="/ifo">
@@ -119,23 +119,23 @@ const App: React.FC = () => {
             </Route>
             <Route exact path="/voting">
               <Voting />
-            </Route>
-            <Route exact path="/voting/proposal/create">
+            </Route> */}
+            {/* <Route exact path="/voting/proposal/create">
               <CreateProposal />
             </Route>
             <Route path="/voting/proposal/:id">
               <Proposal />
-            </Route>
+            </Route> */}
 
             {/* NFT */}
-            <Route path="/nfts">
+            {/* <Route path="/nfts">
               <NftMarket />
-            </Route>
+            </Route> */}
 
             {/* Info pages */}
-            <Route path="/info">
+            {/* <Route path="/info">
               <Info />
-            </Route>
+            </Route> */}
 
             {/* Using this format because these components use routes injected props. We need to rework them with hooks */}
             {/* <Route exact strict path="/swap" component={Swap} />
